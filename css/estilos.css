@@ -5,3 +5,8 @@
 #footer a {
 	color: white;
 }
+
+.contenedor {
+	display: flex;
+	justify-content: space-between;
+}
