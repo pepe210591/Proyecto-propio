@@ -1,5 +1,6 @@
 #footer {
-	background: blue;
+	background-image: url('../images/background_image1.jpg');
+	
 }
 
 #footer a {
@@ -9,4 +10,22 @@
 .contenedor {
 	display: flex;
 	justify-content: space-between;
+}
+
+body {
+	background: #5DC48F;
+}
+
+.hero {
+	border-top: 5px solid red;
+	border-right: 5px solid green;
+	border-left: 5px solid blue;
+	border-bottom: 5px solid pink;
+}
+
+.photos {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px;
+	flex-wrap: wrap;
 }
